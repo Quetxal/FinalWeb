@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header-absolute{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 90%;
+    padding-left: 36px;
+}
+.header-navegacion{
+    display: flex;
+    align-items: center;
+    flex-basis: 40%;
+    flex-shrink: 0;
+    justify-content: space-around;
+}
+form{
+    margin-right: 50px;
+}
+.input-header{
+    border: none;
+    border-bottom: 1px solid #000;
+}
+p{
+    margin: 10px;
+}
+@media screen and (max-width: 1000px) {
+    .header-navegacion{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+.lista{
+    display: flex;
+    flex: 1;
+    padding: 0;
+    justify-content: space-between;
+}
+.li{
+    list-style: none;
+    text-align: center;
+}
+.li-peru{
+    display: flex;
+}
+.peru{
+    width: 20px;
+    margin-right: 10px;
+}
+.header-logo{
+    display: flex;
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+
+.img-fluid{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    max-width: 90%;
+}
+.lista-responsive{
+    padding: 15px;
+}
+@media screen and (max-width: 800px) {
+    .lista-responsive{
+        flex-direction: column;
+        align-items: center;
+    }
+    .li-res{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }  
+}
+.header-principal{
+    padding: 10px;
+}
+.header-img{
+    width: 100%;
+}
+.arrivals{
+    display: flex;
+
+}
+h2{
+    text-align: center;
+}
+.arrivals div{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.arrival-img{
+    width: 100%;
+}
+.imagen-contenedor:hover .hidden{
+    opacity: 1;
+}
+.imagen-contenedor:hover .quick-view{
+    opacity: 1;
+    bottom: 34%;
+}
+.imagen-contenedor{
+    position: relative;
+}
+.precio{
+    display: block;
+}
+.hidden{
+    transition: opacity 0.1s ease-in-out;
+    opacity: 0;
+}
+.quick-view{
+    position: absolute;
+    bottom: 30%;
+    background-color: rgba(255, 255, 255, 0.596);
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: bottom 0.2s ease-in-out;
+}
+.new{
+    padding: 15px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.style-imgs{
+    display: flex;
+}
+.style-imgs img{
+    margin-left: 10px;
+    width: 100%;
+    margin-right: 10px;
+}
+.new-handbags{
+    display: flex;
+}
+.handbags-h2{
+    text-align: center;
+    font-size: 30px;
+}
+.new-handbags img{
+    width: 100%;
+}
+.shop{
+    display: flex;
+}
+.shop img{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.footer ul{
+    list-style: none;
+    padding: 0;
+}
+@media screen and (max-width: 800px) {
+    .footer{
+        flex-direction: column;
+    }
+}
+.icons-container{
+    padding-left: 10px;
+}
+.icons-container h3{
+    margin-left: 20px;
+}
+.icon{
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.fab{
+    font-size: 20px;
+}
+.form-footer{
+    text-align: center;
+}
+@media screen and (max-width: 800px) {
+    .form-footer{
+        margin-top: 70px;
+        margin-bottom: 20px;
+    }
+}
+.input-footer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.final{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 20px;
+    flex-basis: 100%;
+}
